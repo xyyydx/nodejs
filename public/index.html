@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/index.css">
+  <script src="socket.io/socket.io.js"></script>
+</head>
+
+<body>
+  <div class="select">
+    <div class="nameSelect">
+      <p>输入你的昵称:</p>
+      <input type="text">
+    </div>
+    <div class="headPortrait">
+      <p>选择你的头像</p>
+      <div class="imgs">
+        <img src="./img/1.webp" alt="">
+        <img src="./img/2.webp" alt="">
+        <img src="./img/6.webp" alt="">
+        <img src="./img/4.webp" alt="">
+        <img src="./img/5.webp" alt="">
+        <img src="./img/5.webp" alt="">
+        <img src="./img/5.webp" alt="">
+        <img src="./img/5.webp" alt="">
+      </div>
+    </div>
+    <button>加入聊天室</button>
+  </div>
+  <div class="masterOut">
+    <div class="master">
+      <div class="left">
+        <p>成员列表</p>
+        <ul class="list">
+
+        </ul>
+      </div>
+      <div class="right">
+        <div class="text">
+          <p class="head">文明发言</p>
+        </div>
+        <footer>
+          <div class="outDiv">
+            <input type="text">
+            <input type="submit" class="send">
+          </div>
+        </footer>
+      </div>
+      </ul>
+    </div>
+  </div>
+  <script src="./js/index.js"></script>
+  <script>
+    function a(a, b) {
+      return function (c, d) {
+        return a + b + c + d
+      }
+    }
+  </script>
+</body>
+
+</html>

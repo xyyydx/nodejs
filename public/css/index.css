@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: '黑体';
+    color:rgb(102,102,102);
+    font-weight: bold;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/background.webp');
+    background-size: cover;
+}
+.select{
+    width: 55%;
+    height: 80%;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    user-select:none;
+    align-items: center;
+    justify-content: center;
+}
+.select p{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.select .imgs{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.select img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.select .nameSelect{
+    width: 50%;
+}
+.select .nameSelect input{
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-indent: 15px;
+    border-radius: 5px;
+
+}
+.select .headPortrait{
+    width: 50%;
+    margin: 40px 0;
+}
+.select button{
+    width: 50%;
+    height: 40px;
+    margin-top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: slateblue;
+    color: white;
+}
+.masterOut{
+    width: 55%;
+    height: 80%; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    user-select:none;
+    display: none;
+}
+.master{
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+}
+.left p{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.left ul{
+    width: 90%;
+    height: 100%;
+}
+.left li {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+.left img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.left span{
+    margin-left: 20px;
+    font-weight: bold;
+}
+.right{
+    width: 70%;
+    padding: 0 20px;
+}
+.right .text{
+    width: 100%;
+    height: 87%;
+    overflow: scroll;
+}
+.right .head{
+    width: 100%;
+    height: 47px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: darkgreen;
+    display: flex;
+    user-select:none;
+}
+.right .info{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #c2c1c1;
+    font-weight: normal;
+    user-select:none;
+}
+.right ul{
+    width: 100%;
+    height: 73%;
+}
+.right li{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.right li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.right li .item{
+    margin-left: 15px;
+}
+.right li .item .name{
+    font-size: 12px;
+    padding: 5px;
+}
+.right li .item .text{
+    padding:8px 15px;
+    background: skyblue;
+    border-radius: 5px;
+}
+.right .right{
+    display: flex;
+    justify-content: end;
+}
+.right .right .item{
+    margin-right: 15px;
+}
+footer{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+footer .outDiv{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(76, 75, 76);
+    border-radius: 5px;
+}
+footer input{
+    width: 88%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: rgb(76, 75, 76);
+}
+footer .send{
+    width: 80px;
+    border:1px solid rgb(76, 75, 76)
+    font-size: 18px;
+}
+footer input{
+    color: #c2c1c1;
+    text-indent: 15px;
+}
